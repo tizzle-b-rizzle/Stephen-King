@@ -1,0 +1,39 @@
+/*#region reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+#main-page {
+    display: grid;
+    grid-template-rows: 10vh 10vh;
+    grid-template-columns: 100vw;
+}
+
+#title {
+    grid-row: 1;
+    grid-column: 1;
+    background-color: red;
+}
+
+#links-to-books {
+    grid-row: 2;
+    grid-column: 1;
+    display:flex;
+    margin-left:5vw;
+    margin-right:5vw;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#ns, #sk, #nad, #ee, #jas, #bobd {
+    flex:1;
+    text-decoration: none;
+    text-align: center;
+}
+
+#ns {
+    background-color: yellow;
+}
+
