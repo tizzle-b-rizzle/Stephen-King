@@ -9,12 +9,43 @@
     display: grid;
     grid-template-rows: 10vh 10vh;
     grid-template-columns: 100vw;
+    background-color: black;
 }
 
-#title {
+
+
+#title-conatiner {
     grid-row: 1;
     grid-column: 1;
-    background-color: red;
+    background-image: linear-gradient(black, red);
+    position: relative;
+    display: flex;
+}
+
+
+#stephen, #stories, #ranked, #short {
+    flex:1;
+    font-size: 8vh;
+    color:#2639eb;
+}
+
+#k, #i, #n, #g {
+    flex:0.5;
+    font-size: 8vh;
+    animation-name: colour;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colour {
+    0% {
+        color:red;}
+    50% {
+        color:green;
+    }
+    100% {
+        color:red;
+    }
 }
 
 #links-to-books {
@@ -27,13 +58,37 @@
     margin-bottom: 0;
 }
 
-#ns, #sk, #nad, #ee, #jas, #bobd {
+#ns, #sc, #nad, #ee, #jas, #bobd {
     flex:1;
     text-decoration: none;
     text-align: center;
+    padding-top: 3vh;
 }
+
 
 #ns {
     background-color: yellow;
+}
+
+#sc {
+    background-color: black;
+    color:white;
+}
+
+#nad {
+    background-color: blueviolet;
+}
+
+#ee {
+    background-color: white;
+    color:red;
+}
+
+#jas {
+    background-color: orange;
+}
+
+#bobd {
+    background-color: lightblue;
 }
 
