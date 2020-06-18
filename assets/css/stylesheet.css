@@ -1,65 +1,41 @@
 /*#region reset*/
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /*#endregion*/
+
+/*#region main page*/
+  #main-page {
+      background-color: black;
+      width:100vw;
+      height:100vw;
+  }
 /*#endregion*/
 
-body {
-  background-color: black;
-}
-
-/*#region the whole page*/
-#page {
-  display: grid;
-  grid-auto-rows: 1vh;
-  grid-auto-columns: 1vw;
-}
+  /*#region main page title*/
+    #main-page-title-area {
+        display:relative;
+        height:20vh;
+        width:100vw;
+        background-color: black;
+        border:1px solid white;
+        border-radius: 3px;
+        margin-right:50vw;
+    }
+    #main-page-title {
+        display:absolute;
+        text-align:center;
+        padding-top:5vh;
+        color:white;
+    }
 /*#endregion*/
 
-/*#region the title of the page at the top*/
-#title {
-  grid-row: 1 / span 20;
-  grid-column: 1 / span 100;
-  background-color: blue;
-}
-/*#endregion*/
-
-/*#region description of what the page is*/
-#description {
-  grid-row: 21 / span 40;
-  grid-column: 21 / span 60;
-  background-image: url(../img/paper.png);
-  background-size: cover;
-  text-align: center;
-  font-family: Impact, "Haettenschweiler", Arial Narrow Bold, sans-serif;
-}
-
-#description h1 {
-  padding-top: 5vh;
-}
-
-#description-paragraph {
-  padding-top: 2vh;
-  padding-left: 12vw;
-  max-width: 48vw;
-  font-size: 19px;
-}
-/*#endregion*/
-
-/*#region nightshift*/
-#ns-image {
-  background-image: url(../img/nightshift.jpg);
-  grid-row: 71 / span 60;
-  grid-column: 21 / span 20;
-}
-
-#ns-stories {
-  background-color: green;
-  grid-row: 71 / span 60;
-  grid-column: 41 / span 40;
-  border: 1px solid white;
-  border-radius: 2px;
-}
+/*#region mobile version*/
+@media screen and (max-width:600px) {
+    #main-page-title-area {
+        background-color: blue;
+    }
+} 
 /*#endregion*/
