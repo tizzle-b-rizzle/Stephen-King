@@ -1,41 +1,66 @@
 /*#region reset*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  /*#endregion*/
-
-/*#region main page*/
-  #main-page {
-      background-color: black;
-      width:100vw;
-      height:100vw;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
 /*#endregion*/
 
-  /*#region main page title*/
-    #main-page-title-area {
-        display:relative;
-        height:20vh;
-        width:100vw;
-        background-color: black;
-        border:1px solid white;
-        border-radius: 3px;
-        margin-right:50vw;
-    }
-    #main-page-title {
-        display:absolute;
-        text-align:center;
-        padding-top:5vh;
-        color:white;
-    }
+/*#region main page*/
+#main-page {
+  background-color: black;
+  width: 100vw;
+  max-width: 100%;
+  height: 100vw;
+}
+/*#endregion*/
+
+/*#region main page title*/
+#main-page-title-area {
+  display: relative;
+  height: 20vh;
+  width: 100vw;
+  max-width: 100%;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 3px;
+  margin-right: 50vw;
+}
+#main-page-title {
+  display: absolute;
+  text-align: center;
+  padding-top: 5vh;
+  color: white;
+}
+/*#endregion*/
+
+/*#region body of main page area*/
+#body-of-main-page-area {
+  width: 100vw;
+  max-width: 100%;
+  height: 300vh;
+}
+
+#body {
+  height: 300vh;
+  width: 70vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  background-color: yellow;
+}
+
+#main-page-intro {
+  height: 30vh;
+  width: 100%;
+  background-color: red;
+}
 /*#endregion*/
 
 /*#region mobile version*/
-@media screen and (max-width:600px) {
-    #main-page-title-area {
-        background-color: blue;
-    }
-} 
+@media screen and (max-width: 600px) {
+  #main-page-title-area {
+    background-color: blue;
+  }
+}
 /*#endregion*/
