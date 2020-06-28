@@ -28,7 +28,7 @@
 }
 #main-page-title {
   text-align: center;
-  padding-top: 5vh;
+  padding-top: 6vh;
   color: white;
 }
 /*#endregion*/
@@ -48,15 +48,25 @@
   background-color: yellow;
 }
 
+#main-page-intro {
+  border:2px solid white;
+}
+
 #main-page-intro p {
   height: 30vh;
   width: 100%;
-  background-color: red;
+  background-color: #18181a;
+  padding:2vh;
+  color:white;
   font-size: 20px;
 }
 
 #intro-p2 {
   text-align: center;
+}
+
+#intro-p2 p {
+  font-size: 4vh;
 }
 /*#endregion*/
 
@@ -64,6 +74,11 @@
 .black-seperator {
   background-color: black;
   height: 10vh;
+}
+
+.small-black-seperator {
+  background-color: black;
+  height:5vh;
 }
 /*#endregion*/
 
@@ -85,20 +100,63 @@
 }
 
 .image-area {
-  flex:1;
+  flex:2;
+  max-height: 100%;
 }
 
 .list-area {
   flex:4;
-  background-color: #383636;
+  max-height: 100%;
+  background-color: #18181a;
 }
 
-.list-area ul, li {
-  background-color: #383636;
+.list-area ul, .list-area li {
+  background-color: #18181a;
+  max-height: 100%;
+  color:white;
 }
+
+#ns ul, #ns li {
+  font-size: 16px;
+  margin-top:2vh;
+  margin-left:5vw;
+}
+
+#sc ul, #sc li {
+  font-size:16px;
+  margin-top:1.5vh;
+  margin-left:5vw;
+}
+
+#nad ul, #nad li {
+  font-size: 16px;
+  margin-left: 4vw;
+  margin-top:1.5vh;
+}
+
+#ee ul, #ee li {
+  font-size: 17px;
+  margin-left:2vw;
+  margin-top:3.5vh;
+}
+
+#jas ul, #jas li {
+  font-size: 18px;
+  margin-left:4vw;
+  margin-top:3vh;
+}
+
+#bobd ul, #bobd li {
+  font-size:16px;
+  margin-top: 2vh;
+  margin-left: 4vw;
+}
+
 .book-pic  {
   width:100%;
   height:100%;
+  max-width: 100%;
+  max-width: 100%;
 }
 /*#endregion*/
 
