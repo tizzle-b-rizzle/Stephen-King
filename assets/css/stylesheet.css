@@ -12,7 +12,7 @@
   background-color: black;
   width: 100vw;
   max-width: 100%;
-  height: 200vh;
+  height: 400vh;
 }
 /*#endregion*/
 
@@ -166,11 +166,78 @@
   #main-page-title-area h1 {
     background-color: blue;
   }
+
+  #main-page-intro p {
+    font-size: 15px;
+  }
+
+  #intro-p2 p {
+    font-size: 3vh;
+    padding-top:80px;
+  }
+
  .image-area {
    flex:1;
+   max-height: 50%;
  }
  .list-area {
-   flex:1;
+   flex:2;
  }
+
+ .book-pic-on-left {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid white;
+  width:100%;
+}
+
+.book-pic-on-right {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  border: 2px
+  solid white;
+  width:100%;
+}
+.list-area ul, .list-area li {
+  background-color: #18181a;
+  max-height: 100%;
+  color:white;
+}
+
+#ns ul, #ns li {
+  font-size: 5px;
+}
+
+#sc ul, #sc li {
+  font-size:5px;
+  margin-top:1.5vh;
+  margin-left:5vw;
+}
+
+#nad ul, #nad li {
+  font-size: 5px;
+  margin-left: 4vw;
+  margin-top:1.5vh;
+}
+
+#ee ul, #ee li {
+  font-size: 5px;
+  margin-left:2vw;
+  margin-top:3.5vh;
+}
+
+#jas ul, #jas li {
+  font-size: 5px;
+  margin-left:4vw;
+  margin-top:3vh;
+}
+
+#bobd ul, #bobd li {
+  font-size:5px;
+  margin-top: 2vh;
+  margin-left: 4vw;
+}
 }
 /*#endregion*/
