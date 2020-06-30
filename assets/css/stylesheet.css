@@ -49,15 +49,15 @@
 }
 
 #main-page-intro {
-  border:2px solid white;
+  border: 2px solid white;
 }
 
 #main-page-intro p {
   height: 30vh;
   width: 100%;
   background-color: #18181a;
-  padding:2vh;
-  color:white;
+  padding: 2vh;
+  color: white;
   font-size: 20px;
 }
 
@@ -78,83 +78,89 @@
 
 .small-black-seperator {
   background-color: black;
-  height:5vh;
+  height: 5vh;
 }
 /*#endregion*/
 
 /*#region books*/
 .book-pic-on-left {
-  height: 50vh;
+  height: 57vh;
   display: flex;
   border: 2px solid white;
-  width:100%;
+  width: 100%;
 }
 
 .book-pic-on-right {
-  height: 50vh;
+  height: 57vh;
   display: flex;
   flex-direction: row-reverse;
-  border: 2px
-  solid white;
-  width:100%;
+  border: 2px solid white;
+  width: 100%;
 }
 
 .image-area {
-  flex:2;
+  flex: 2;
   max-height: 100%;
 }
 
 .list-area {
-  flex:4;
+  flex: 4;
   max-height: 100%;
   background-color: #18181a;
 }
 
-.list-area ul, .list-area li {
+.list-area ul,
+.list-area li {
   background-color: #18181a;
-  max-height: 100%;
-  color:white;
+  max-height: 50%;
+  color: white;
 }
 
-#ns ul, #ns li {
-  font-size: 16px;
-  margin-top:2vh;
-  margin-left:5vw;
+#ns ul,
+#ns li {
+  font-size: 17px;
+  margin-top: 2vh;
+  margin-left: 5vw;
 }
 
-#sc ul, #sc li {
-  font-size:16px;
-  margin-top:1.5vh;
-  margin-left:5vw;
+#sc ul,
+#sc li {
+  font-size: 16.5px;
+  margin-top: 1.5vh;
+  margin-left: 5vw;
 }
 
-#nad ul, #nad li {
+#nad ul,
+#nad li {
   font-size: 16px;
   margin-left: 4vw;
-  margin-top:1.5vh;
+  margin-top: 1.5vh;
 }
 
-#ee ul, #ee li {
+#ee ul,
+#ee li {
   font-size: 17px;
-  margin-left:2vw;
-  margin-top:3.5vh;
+  margin-left: 2vw;
+  margin-top: 3.5vh;
 }
 
-#jas ul, #jas li {
+#jas ul,
+#jas li {
   font-size: 18px;
-  margin-left:4vw;
-  margin-top:3vh;
+  margin-left: 4vw;
+  margin-top: 3vh;
 }
 
-#bobd ul, #bobd li {
-  font-size:16px;
+#bobd ul,
+#bobd li {
+  font-size: 16px;
   margin-top: 2vh;
   margin-left: 4vw;
 }
 
-.book-pic  {
-  width:100%;
-  height:100%;
+.book-pic {
+  width: 100%;
+  height: 100%;
   max-width: 100%;
   max-width: 100%;
 }
@@ -173,71 +179,81 @@
 
   #intro-p2 p {
     font-size: 3vh;
-    padding-top:80px;
+    padding-top: 80px;
   }
 
- .image-area {
-   flex:1;
-   max-height: 50%;
- }
- .list-area {
-   flex:2;
- }
+  .image-area {
+    flex: 2;
+    height: 50%;
+    max-height: 50%;
+  }
 
- .book-pic-on-left {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  border: 2px solid white;
-  width:100%;
-}
+  .list-area {
+    flex: 1;
+    height: 50%;
+    max-height: 100%;
+  }
 
-.book-pic-on-right {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  border: 2px
-  solid white;
-  width:100%;
-}
-.list-area ul, .list-area li {
-  background-color: #18181a;
-  max-height: 100%;
-  color:white;
-}
+  .book-pic-on-left {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid white;
+    width: 100%;
+  }
 
-#ns ul, #ns li {
-  font-size: 5px;
-}
+  .book-pic-on-right {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid white;
+    width: 100%;
+  }
+  .list-area ul,
+  .list-area li {
+    background-color: #18181a;
+    max-height: 50%;
+    color: white;
+  }
 
-#sc ul, #sc li {
-  font-size:5px;
-  margin-top:1.5vh;
-  margin-left:5vw;
-}
+  #ns ul,
+  #ns li {
+    font-size: 5px;
+  }
 
-#nad ul, #nad li {
-  font-size: 5px;
-  margin-left: 4vw;
-  margin-top:1.5vh;
-}
+  #sc ul,
+  #sc li {
+    font-size: 5px;
+    margin-top: 1.5vh;
+    margin-left: 5vw;
+  }
 
-#ee ul, #ee li {
-  font-size: 5px;
-  margin-left:2vw;
-  margin-top:3.5vh;
-}
+  #nad ul,
+  #nad li {
+    font-size: 5px;
+    margin-left: 4vw;
+    margin-top: 1.5vh;
+  }
 
-#jas ul, #jas li {
-  font-size: 5px;
-  margin-left:4vw;
-  margin-top:3vh;
-}
+  #ee ul,
+  #ee li {
+    font-size: 5px;
+    margin-left: 2vw;
+    margin-top: 3.5vh;
+  }
 
-#bobd ul, #bobd li {
-  font-size:5px;
-  margin-top: 2vh;
-  margin-left: 4vw;
-}
+  #jas ul,
+  #jas li {
+    font-size: 5px;
+    margin-left: 4vw;
+    margin-top: 3vh;
+  }
+
+  #bobd ul,
+  #bobd li {
+    font-size: 5px;
+    margin-top: 2vh;
+    margin-left: 4vw;
+  }
 }
 /*#endregion*/
