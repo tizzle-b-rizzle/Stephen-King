@@ -84,14 +84,14 @@
 
 /*#region books*/
 .book-pic-on-left {
-  height: 57vh;
+  height: 55vh;
   display: flex;
   border: 2px solid white;
   width: 100%;
 }
 
 .book-pic-on-right {
-  height: 57vh;
+  height: 55vh;
   display: flex;
   flex-direction: row-reverse;
   border: 2px solid white;
@@ -106,12 +106,12 @@
 .list-area {
   width: 40%;
   max-height: 100%;
-  background-color: #18181a;
+  background-color: #1A1A1B;
 }
 
 .list-area ul,
 .list-area li {
-  background-color: #18181a;
+  background-color: #1A1A1B;
   max-height: 50%;
   color: white;
 }
@@ -154,7 +154,7 @@
 #bobd ul,
 #bobd li {
   font-size: 16px;
-  margin-top: 2vh;
+  margin-top: 2.5vh;
   margin-left: 4vw;
 }
 
@@ -168,6 +168,13 @@
 
 /*#region mobile version*/
 @media screen and (max-width: 600px) {
+
+#body {
+ width:64vw;
+ margin-right:18vw;
+ margin-left:18vw;
+  }
+
   #main-page-title-area,
   #main-page-title-area h1 {
     background-color: blue;
@@ -183,13 +190,13 @@
   }
 
   .image-area {
-    height: 50%;
-    max-height: 50%;
+    height: 60%;
+    max-height: 60%;
     width: 100%;
   }
 
   .list-area {
-    height: 50%;
+    height: 40%;
     max-height: 50%;
     width: 50%;
   }
@@ -211,48 +218,50 @@
   }
   .list-area ul,
   .list-area li {
-    background-color: #18181a;
+    background-color: #1A1A1B;
     max-height: 50%;
     color: white;
   }
 
   #ns ul,
   #ns li {
-    font-size: 8px;
+    font-size: 14px;
+    margin-top:1vh;
+    margin-left:3vw;
   }
 
   #sc ul,
   #sc li {
-    font-size: 5px;
-    margin-top: 1.5vh;
-    margin-left: 5vw;
+    font-size: 12.5px;
+    margin-top: 1vh;
+    margin-left: 2vw;
   }
 
   #nad ul,
   #nad li {
-    font-size: 5px;
-    margin-left: 4vw;
-    margin-top: 1.5vh;
+    font-size: 12px;
+    margin-left: 3vw;
+    margin-top: 1vh;
   }
 
   #ee ul,
   #ee li {
-    font-size: 5px;
+    font-size: 15px;
     margin-left: 2vw;
-    margin-top: 3.5vh;
+    margin-top: 2vh;
   }
 
   #jas ul,
   #jas li {
-    font-size: 5px;
+    font-size: 16px;
     margin-left: 4vw;
-    margin-top: 3vh;
+    margin-top: 1.5vh;
   }
 
   #bobd ul,
   #bobd li {
-    font-size: 5px;
-    margin-top: 2vh;
+    font-size: 13.5px;
+    margin-top: 1vh;
     margin-left: 4vw;
   }
 }
