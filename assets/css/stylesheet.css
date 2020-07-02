@@ -580,7 +580,9 @@
   }
 
   #main-page-intro p {
-    font-size: 2.5vh;
+    font-size: 2.3vh;
+    padding-top: 0;
+    margin-top: 0;
   }
 
   #intro-p2 p {
@@ -633,14 +635,21 @@
   }
 
   #ns-list-2 li {
-    font-size: 2.5vh;
+    font-size: 2.3vh;
   }
 
   #sc ul,
   #sc li {
-    font-size: 12.5px;
     margin-top: 1vh;
     margin-left: 2.5vw;
+  }
+
+  #sc-list-1 li {
+    font-size: 2.5vh;
+  }
+
+  #sc-list-2 li {
+    font-size: 2.5vh;
   }
 
   #nad ul,
@@ -650,25 +659,39 @@
   }
 
   #nad-list-1 li {
-    font-size: 2.5vh;
+    font-size: 2.4vh;
   }
 
   #nad-list-2 li {
-    font-size: 2.5vh;
+    font-size: 2.4vh;
   }
 
   #ee ul,
   #ee li {
-    font-size: 2.7vh;
     margin-top: 2vh;
     margin-left: 2.5vw;
   }
 
+  #ee-list-1 li {
+    font-size: 2.8vh;
+  }
+
+  #ee-list-2 li {
+    font-size: 2.6vh;
+  }
+
   #jas ul,
   #jas li {
-    font-size: 2.9vh;
     margin-top: 2vh;
     margin-left: 4vw;
+  }
+
+  #jas-list-1 li {
+    font-size: 2.8vh;
+  }
+
+  #jas-list-2 li {
+    font-size: 3vh;
   }
 
   #bobd ul,
