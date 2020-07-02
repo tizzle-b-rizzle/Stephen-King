@@ -106,55 +106,55 @@
 .list-area {
   width: 40%;
   max-height: 100%;
-  background-color: #1A1A1B;
+  background-color: #1a1a1b;
 }
 
 .list-area ul,
 .list-area li {
-  background-color: #1A1A1B;
+  background-color: #1a1a1b;
   max-height: 50%;
   color: white;
 }
 
 #ns ul,
 #ns li {
-  font-size: 17px;
-  margin-top: 2vh;
+  font-size: 2.5vh;
+  margin-top: 2.2vh;
   margin-left: 5vw;
 }
 
 #sc ul,
 #sc li {
-  font-size: 16.5px;
-  margin-top: 1.5vh;
+  font-size: 2.5vh;
+  margin-top: 1.7vh;
   margin-left: 5vw;
 }
 
 #nad ul,
 #nad li {
-  font-size: 16px;
+  font-size: 2.5vh;
   margin-left: 4vw;
   margin-top: 1.5vh;
 }
 
 #ee ul,
 #ee li {
-  font-size: 17px;
+  font-size: 3vh;
   margin-left: 2vw;
   margin-top: 3.5vh;
 }
 
 #jas ul,
 #jas li {
-  font-size: 18px;
+  font-size: 3vh;
   margin-left: 4vw;
-  margin-top: 3vh;
+  margin-top: 3.5vh;
 }
 
 #bobd ul,
 #bobd li {
-  font-size: 16px;
-  margin-top: 2.5vh;
+  font-size: 2.5vh;
+  margin-top: 2.3vh;
   margin-left: 4vw;
 }
 
@@ -168,11 +168,10 @@
 
 /*#region mobile version*/
 @media screen and (max-width: 600px) {
-
-#body {
- width:64vw;
- margin-right:18vw;
- margin-left:18vw;
+  #body {
+    width: 64vw;
+    margin-right: 18vw;
+    margin-left: 18vw;
   }
 
   #main-page-title-area,
@@ -218,49 +217,149 @@
   }
   .list-area ul,
   .list-area li {
-    background-color: #1A1A1B;
+    background-color: #1a1a1b;
     max-height: 50%;
     color: white;
   }
 
   #ns ul,
   #ns li {
-    font-size: 13px;
-    margin-top:1vh;
-    margin-left:3vw;
+    font-size: 2vh;
+    margin-top: 1.3vh;
+    margin-left: 3vw;
   }
 
   #sc ul,
   #sc li {
-    font-size: 12.5px;
+    font-size: 1.8vh;
     margin-top: 1vh;
     margin-left: 2vw;
   }
 
   #nad ul,
   #nad li {
-    font-size: 12px;
+    font-size: 1.7vh;
     margin-left: 3vw;
     margin-top: 1vh;
   }
 
   #ee ul,
   #ee li {
-    font-size: 15px;
+    font-size: 2.2vh;
     margin-left: 2vw;
     margin-top: 2vh;
   }
 
   #jas ul,
   #jas li {
-    font-size: 16px;
+    font-size: 2.5vh;
     margin-left: 4vw;
     margin-top: 1.5vh;
   }
 
   #bobd ul,
   #bobd li {
-    font-size: 13.5px;
+    font-size: 2vh;
+    margin-top: 1vh;
+    margin-left: 4vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #body {
+    width: 64vw;
+    margin-right: 18vw;
+    margin-left: 18vw;
+  }
+
+  #main-page-title-area,
+  #main-page-title-area h1 {
+    background-color: blue;
+    font-size: 5vh;
+  }
+
+  #main-page-intro p {
+    font-size: 2.5vh;
+    margin-top: 2vh;
+  }
+
+  #intro-p2 p {
+    font-size: 3vh;
+    padding-top: 70px;
+  }
+
+  .image-area {
+    height: 60%;
+    max-height: 60%;
+    width: 100%;
+  }
+
+  .list-area {
+    height: 40%;
+    max-height: 50%;
+    width: 50%;
+  }
+
+  .book-pic-on-left {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid white;
+    width: 100%;
+  }
+
+  .book-pic-on-right {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid white;
+    width: 100%;
+  }
+  .list-area ul,
+  .list-area li {
+    background-color: #1a1a1b;
+    max-height: 50%;
+    color: white;
+  }
+
+  #ns ul,
+  #ns li {
+    font-size: 2vh;
+    margin-top: 1vh;
+    margin-left: 3vw;
+  }
+
+  #sc ul,
+  #sc li {
+    font-size: 1.8vh;
+    margin-top: 1vh;
+    margin-left: 2vw;
+  }
+
+  #nad ul,
+  #nad li {
+    font-size: 1.7vh;
+    margin-left: 3vw;
+    margin-top: 1vh;
+  }
+
+  #ee ul,
+  #ee li {
+    font-size: 2.2vh;
+    margin-left: 2vw;
+    margin-top: 2vh;
+  }
+
+  #jas ul,
+  #jas li {
+    font-size: 2.5vh;
+    margin-left: 4vw;
+    margin-top: 1.5vh;
+  }
+
+  #bobd ul,
+  #bobd li {
+    font-size: 1.8vh;
     margin-top: 1vh;
     margin-left: 4vw;
   }
@@ -268,99 +367,101 @@
 
 @media screen and (max-width: 400px) {
   #body {
-    width:80vw;
-    margin-right:10vw;
-    margin-left:10vw;
-     }
-   
-     #main-page-title-area,
-     #main-page-title-area h1 {
-       background-color: blue;
-     }
-   
-     #main-page-intro p {
-       font-size: 15px;
-     }
-   
-     #intro-p2 p {
-       font-size: 3vh;
-       padding-top: 80px;
-     }
-   
-     .image-area {
-       height: 50%;
-       max-height: 60%;
-       width: 100%;
-     }
-   
-     .list-area {
-       height: 50%;
-       max-height: 50%;
-       width: 50%;
-     }
-   
-     .book-pic-on-left {
-       height: 120vh;
-       display: flex;
-       flex-wrap: wrap;
-       border: 2px solid white;
-       width: 100%;
-     }
-   
-     .book-pic-on-right {
-       height: 120vh;
-       display: flex;
-       flex-wrap: wrap;
-       border: 2px solid white;
-       width: 100%;
-     }
-     .list-area ul,
-     .list-area li {
-       background-color: #1A1A1B;
-       max-height: 50%;
-       color: white;
-     }
-   
-     #ns ul,
-     #ns li {
-       font-size: 15px;
-       margin-top:1vh;
-       margin-left:2.5vw;
-     }
-   
-     #sc ul,
-     #sc li {
-       font-size: 12.5px;
-       margin-top: 1vh;
-       margin-left: 2vw;
-     }
-   
-     #nad ul,
-     #nad li {
-       font-size: 12px;
-       margin-left: 3vw;
-       margin-top: 1vh;
-     }
-   
-     #ee ul,
-     #ee li {
-       font-size: 15px;
-       margin-left: 2vw;
-       margin-top: 2vh;
-     }
-   
-     #jas ul,
-     #jas li {
-       font-size: 16px;
-       margin-left: 4vw;
-       margin-top: 1.5vh;
-     }
-   
-     #bobd ul,
-     #bobd li {
-       font-size: 13.5px;
-       margin-top: 1vh;
-       margin-left: 4vw;
-     }
+    width: 84vw;
+    margin-right: 8vw;
+    margin-left: 8vw;
+  }
+
+  #main-page-title-area,
+  #main-page-title-area h1 {
+    background-color: blue;
+    font-size: 5vh;
+    padding-top: 2vh;
+  }
+
+  #main-page-intro p {
+    font-size: 2.5vh;
+  }
+
+  #intro-p2 p {
+    font-size: 4vh;
+    padding-top: 7vh;
+  }
+
+  .image-area {
+    height: 50%;
+    max-height: 60%;
+    width: 100%;
+  }
+
+  .list-area {
+    height: 50%;
+    max-height: 50%;
+    width: 50%;
+  }
+
+  .book-pic-on-left {
+    height: 120vh;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid white;
+    width: 100%;
+  }
+
+  .book-pic-on-right {
+    height: 120vh;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid white;
+    width: 100%;
+  }
+  .list-area ul,
+  .list-area li {
+    background-color: #1a1a1b;
+    max-height: 50%;
+    color: white;
+  }
+
+  #ns ul,
+  #ns li {
+    font-size: 2.5vh;
+    margin-top: 1.5vh;
+    margin-left: 2.5vw;
+  }
+
+  #sc ul,
+  #sc li {
+    font-size: 12.5px;
+    margin-top: 1vh;
+    margin-left: 2.5vw;
+  }
+
+  #nad ul,
+  #nad li {
+    font-size: 2.8vh;
+    margin-left: 3vw;
+    margin-top: 1vh;
+  }
+
+  #ee ul,
+  #ee li {
+    font-size: 2.7vh;
+    margin-top: 2vh;
+    margin-left: 2.5vw;
+  }
+
+  #jas ul,
+  #jas li {
+    font-size: 3vh;
+    margin-top: 2vh;
+    margin-left: 4vw;
+  }
+
+  #bobd ul,
+  #bobd li {
+    font-size: 3vh;
+    margin-top: 1vh;
+    margin-left: 4vw;
+  }
 }
 /*#endregion*/
