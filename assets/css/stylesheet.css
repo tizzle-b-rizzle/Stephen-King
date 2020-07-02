@@ -274,17 +274,18 @@
 
   #main-page-title-area,
   #main-page-title-area h1 {
-    background-color: white;
+    background-color: green;
     font-size: 5vh;
   }
 
   #main-page-intro p {
-    font-size: 2.5vh;
-    margin-top: 2vh;
+    font-size: 2vh;
+    margin-top: 0;
+    background-color: #18181a;
   }
 
   #intro-p2 p {
-    font-size: 3vh;
+    font-size: 2vh;
     padding-top: 70px;
   }
 
@@ -324,44 +325,86 @@
 
   #ns ul,
   #ns li {
-    font-size: 2vh;
     margin-top: 1vh;
     margin-left: 3vw;
+  }
+
+  #ns-list-1 li {
+    font-size:2vh;
+  }
+
+  #ns-list-2 li {
+    font-size:1.8vh;
   }
 
   #sc ul,
   #sc li {
-    font-size: 1.8vh;
     margin-top: 1vh;
     margin-left: 2vw;
+  }
+
+  #sc-list-1 li {
+    font-size:1.5vh;
+  }
+
+  #sc-list-2 li {
+    font-size:1.7vh;
   }
 
   #nad ul,
   #nad li {
-    font-size: 1.7vh;
     margin-left: 3vw;
     margin-top: 1vh;
   }
 
+  #nad-list-1 li {
+    font-size:1.58vh;
+  }
+
+  #nad-list-2 li {
+    font-size:1.58vh;
+  }
+
   #ee ul,
   #ee li {
-    font-size: 2.2vh;
     margin-left: 2vw;
     margin-top: 2vh;
   }
 
+  #ee-list-1 li {
+    font-size:1.8vh;
+  }
+
+  #ee-list-2 li {
+    font-size:1.8vh;
+  }
+
   #jas ul,
   #jas li {
-    font-size: 2.5vh;
     margin-left: 4vw;
     margin-top: 1.5vh;
   }
 
+  #jas-list-1 li {
+    font-size:2.3vh;
+  }
+
+  #jas-list-2 li {
+    font-size:2.4vh;
+  }
+
   #bobd ul,
   #bobd li {
-    font-size: 1.8vh;
     margin-top: 1vh;
     margin-left: 4vw;
+  }
+
+  #bobd-list-1 li {
+    font-size:1.88vh;
+  }
+
+  #bobd-list-2 li {
+    font-size:2vh;
   }
 }
 
