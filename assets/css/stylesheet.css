@@ -384,8 +384,8 @@
   }
 
   #intro-p2 p {
-    font-size: 3.8vh;
-    padding-top: 7vh;
+    font-size: 3.5vh;
+    padding-top: 6.5vh;
   }
 
   .image-area {
@@ -401,7 +401,7 @@
   }
 
   .book-pic-on-left {
-    height: 130vh;
+    height: 150vh;
     display: flex;
     flex-wrap: wrap;
     border: 2px solid white;
@@ -409,7 +409,7 @@
   }
 
   .book-pic-on-right {
-    height: 130vh;
+    height: 150vh;
     display: flex;
     flex-wrap: wrap;
     border: 2px solid white;
@@ -424,44 +424,79 @@
 
   #ns ul,
   #ns li {
-    font-size: 2.5vh;
     margin-top: 1.5vh;
     margin-left: 2.5vw;
   }
 
+  #ns-list-1 li {
+    font-size: 2.5vh;
+  }
+
+  #ns-list-2 li {
+    font-size: 2.1vh;
+  }
+
   #sc ul,
   #sc li {
-    font-size: 12.5px;
     margin-top: 1vh;
     margin-left: 2.5vw;
   }
 
+  #sc-list-1 li {
+    font-size: 3vh;
+  }
+
+  #sc-list-2 li {
+    font-size: 3vh;
+  }
+
   #nad ul,
   #nad li {
-    font-size: 2.8vh;
     margin-left: 3vw;
     margin-top: 1vh;
   }
 
+  #nad-list-1 li {
+    font-size: 3vh;
+  }
+
+  #nad-list-2 li {
+    font-size: 3vh;
+  }
+
   #ee ul,
   #ee li {
-    font-size: 2.7vh;
+    font-size: 2.6vh;
     margin-top: 2vh;
     margin-left: 2.5vw;
   }
 
   #jas ul,
   #jas li {
-    font-size: 3vh;
     margin-top: 2vh;
     margin-left: 4vw;
   }
 
+  #jas-list-1 li {
+    font-size: 2.5vh;
+  }
+
+  #jas-list-2 li {
+    font-size: 2vh;
+  }
+
   #bobd ul,
   #bobd li {
-    font-size: 3vh;
     margin-top: 1vh;
     margin-left: 4vw;
+  }
+
+  #bobd-list-1 li {
+    font-size: 2vh;
+  }
+
+  #bobd-list-1 li {
+    font-size: 2.5vh;
   }
 }
 
