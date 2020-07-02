@@ -380,28 +380,28 @@
   }
 
   #main-page-intro p {
-    font-size: 2.5vh;
+    font-size: 2vh;
   }
 
   #intro-p2 p {
-    font-size: 4vh;
+    font-size: 3.8vh;
     padding-top: 7vh;
   }
 
   .image-area {
-    height: 50%;
+    height: 45%;
     max-height: 60%;
     width: 100%;
   }
 
   .list-area {
-    height: 50%;
+    height: 55%;
     max-height: 50%;
     width: 50%;
   }
 
   .book-pic-on-left {
-    height: 120vh;
+    height: 130vh;
     display: flex;
     flex-wrap: wrap;
     border: 2px solid white;
@@ -409,7 +409,7 @@
   }
 
   .book-pic-on-right {
-    height: 120vh;
+    height: 130vh;
     display: flex;
     flex-wrap: wrap;
     border: 2px solid white;
