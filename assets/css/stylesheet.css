@@ -465,14 +465,18 @@
   }
 
   #ee {
-    height: 130vh;
+    height: 125vh;
   }
 
   #ee ul,
   #ee li {
-    font-size: 2.6=8vh;
+    font-size: 2.8vh;
     margin-top: 2vh;
     margin-left: 2.5vw;
+  }
+
+  #jas {
+    height: 135vh;
   }
 
   #jas ul,
@@ -487,6 +491,10 @@
 
   #jas-list-2 li {
     font-size: 2.9vh;
+  }
+
+  #bobd {
+    height: 130vh;
   }
 
   #bobd ul,
