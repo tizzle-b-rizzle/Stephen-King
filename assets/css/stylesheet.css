@@ -429,7 +429,7 @@
   }
 
   #ns-list-1 li {
-    font-size: 3vh;
+    font-size: 2.8vh;
   }
 
   #ns-list-2 li {
@@ -464,6 +464,10 @@
     font-size: 2.5vh;
   }
 
+  #ee {
+    height: 130vh;
+  }
+
   #ee ul,
   #ee li {
     font-size: 2.6=8vh;
@@ -482,7 +486,7 @@
   }
 
   #jas-list-2 li {
-    font-size: 2.5vh;
+    font-size: 2.9vh;
   }
 
   #bobd ul,
@@ -492,11 +496,11 @@
   }
 
   #bobd-list-1 li {
-    font-size: 2vh;
+    font-size: 2.5vh;
   }
 
   #bobd-list-2 li {
-    font-size: 2.5vh;
+    font-size: 2.8vh;
   }
 }
 /*#endregion*/
