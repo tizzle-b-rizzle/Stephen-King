@@ -55,7 +55,7 @@
 #main-page-intro p {
   height: 30vh;
   width: 100%;
-  background-color: #18181a;
+  background-color: #0f0f0f;
   padding: 2vh;
   color: white;
   font-size: 20px;
@@ -106,12 +106,12 @@
 .list-area {
   width: 40%;
   max-height: 100%;
-  background-color: #1a1a1b;
+  background-color: #0f0f0f;
 }
 
 .list-area ul,
 .list-area li {
-  background-color: #1a1a1b;
+  background-color: #0f0f0f;
   max-height: 50%;
   color: white;
 }
@@ -217,23 +217,37 @@
   }
   .list-area ul,
   .list-area li {
-    background-color: #1a1a1b;
+    background-color: #0f0f0f;
     max-height: 50%;
     color: white;
   }
 
   #ns ul,
   #ns li {
-    font-size: 2vh;
     margin-top: 1.3vh;
     margin-left: 3vw;
   }
 
+  #ns-list-1 li {
+    font-size: 1.9vh;
+  }
+
+  #ns-list-2 li {
+    font-size: 1.8vh;
+  }
+
   #sc ul,
   #sc li {
-    font-size: 1.8vh;
     margin-top: 1vh;
     margin-left: 2vw;
+  }
+
+  #sc-list-1 li {
+    font-size:1.7vh;
+  }
+
+  #sc-list-2 li {
+    font-size:1.8vh;
   }
 
   #nad ul,
@@ -245,9 +259,16 @@
 
   #ee ul,
   #ee li {
-    font-size: 2.2vh;
     margin-left: 2vw;
     margin-top: 2vh;
+  }
+
+  #ee-list-1 li {
+    font-size: 2vh;
+  }
+
+  #ee-list-2 li {
+    font-size: 2vh;
   }
 
   #jas ul,
@@ -262,6 +283,14 @@
     font-size: 2vh;
     margin-top: 1vh;
     margin-left: 4vw;
+  }
+
+  #bobd-list-1 li {
+    font-size: 1.8vh;
+  }
+
+  #bobd-list-2 li {
+    font-size: 2vh;
   }
 }
 
@@ -281,7 +310,7 @@
   #main-page-intro p {
     font-size: 2vh;
     margin-top: 0;
-    background-color: #18181a;
+    background-color: #0f0f0f;
   }
 
   #intro-p2 p {
@@ -318,7 +347,7 @@
   }
   .list-area ul,
   .list-area li {
-    background-color: #1a1a1b;
+    background-color: #0f0f0f;
     max-height: 50%;
     color: white;
   }
@@ -424,7 +453,7 @@
 
   #main-page-intro p {
     font-size: 2vh;
-    background-color: #18181a;
+    background-color: #0f0f0f;
     margin-top:0;
   }
 
@@ -463,7 +492,7 @@
   }
   .list-area ul,
   .list-area li {
-    background-color: #1a1a1b;
+    background-color: #0f0f0f;
     max-height: 55%;
     color: white;
   }
@@ -576,7 +605,7 @@
 
   #main-page-intro p {
     font-size: 2vh;
-    background-color: #18181a;
+    background-color: #0f0f0f;
     margin-top:0;
   }
 
@@ -615,7 +644,7 @@
   }
   .list-area ul,
   .list-area li {
-    background-color: #1a1a1b;
+    background-color: #0f0f0f;
     max-height: 55%;
     color: white;
   }
