@@ -1,0 +1,22 @@
+/*#region reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /*#endregion*/
+
+/*#region nav-bar*/
+.nav ul {
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+}
+
+li a {
+    text-decoration:none;
+    display:block;
+    padding:8px;
+}
+/*#endregion*/
+
