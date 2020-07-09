@@ -243,11 +243,11 @@
   }
 
   #sc-list-1 li {
-    font-size:1.7vh;
+    font-size: 1.7vh;
   }
 
   #sc-list-2 li {
-    font-size:1.8vh;
+    font-size: 1.8vh;
   }
 
   #nad ul,
@@ -304,17 +304,17 @@
   #main-page-title-area,
   #main-page-title-area h1 {
     background-color: green;
-    font-size: 5vh;
+    font-size: 30px;
   }
 
   #main-page-intro p {
-    font-size: 2vh;
+    font-size: 14px;
     margin-top: 0;
     background-color: #0f0f0f;
   }
 
   #intro-p2 p {
-    font-size: 2vh;
+    font-size: 16px;
     padding-top: 70px;
   }
 
@@ -359,11 +359,11 @@
   }
 
   #ns-list-1 li {
-    font-size:2vh;
+    font-size: 12px;
   }
 
   #ns-list-2 li {
-    font-size:1.8vh;
+    font-size: 11.5px;
   }
 
   #sc ul,
@@ -373,11 +373,11 @@
   }
 
   #sc-list-1 li {
-    font-size:1.5vh;
+    font-size: 10.8px;
   }
 
   #sc-list-2 li {
-    font-size:1.7vh;
+    font-size: 12px;
   }
 
   #nad ul,
@@ -387,11 +387,11 @@
   }
 
   #nad-list-1 li {
-    font-size:1.58vh;
+    font-size: 10.5px;
   }
 
   #nad-list-2 li {
-    font-size:1.58vh;
+    font-size: 10.5px;
   }
 
   #ee ul,
@@ -401,11 +401,11 @@
   }
 
   #ee-list-1 li {
-    font-size:1.8vh;
+    font-size: 12px;
   }
 
   #ee-list-2 li {
-    font-size:1.8vh;
+    font-size: 12px;
   }
 
   #jas ul,
@@ -415,11 +415,11 @@
   }
 
   #jas-list-1 li {
-    font-size:2.3vh;
+    font-size: 14px;
   }
 
   #jas-list-2 li {
-    font-size:2.4vh;
+    font-size: 14px;
   }
 
   #bobd ul,
@@ -429,11 +429,11 @@
   }
 
   #bobd-list-1 li {
-    font-size:1.88vh;
+    font-size: 12px;
   }
 
   #bobd-list-2 li {
-    font-size:2vh;
+    font-size: 13px;
   }
 }
 
@@ -454,7 +454,7 @@
   #main-page-intro p {
     font-size: 2vh;
     background-color: #0f0f0f;
-    margin-top:0;
+    margin-top: 0;
   }
 
   #intro-p2 p {
@@ -588,7 +588,6 @@
 }
 /*#endregion*/
 
-
 @media screen and (min-height: 750px) {
   #body {
     width: 84vw;
@@ -606,7 +605,7 @@
   #main-page-intro p {
     font-size: 2vh;
     background-color: #0f0f0f;
-    margin-top:0;
+    margin-top: 0;
   }
 
   #intro-p2 p {
