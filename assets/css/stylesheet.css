@@ -229,11 +229,11 @@
   }
 
   #ns-list-1 li {
-    font-size: 1.9vh;
+    font-size: 14px;
   }
 
   #ns-list-2 li {
-    font-size: 1.8vh;
+    font-size: 12px;
   }
 
   #sc ul,
@@ -243,16 +243,16 @@
   }
 
   #sc-list-1 li {
-    font-size: 1.7vh;
+    font-size: 11.5px;
   }
 
   #sc-list-2 li {
-    font-size: 1.8vh;
+    font-size: 12px;
   }
 
   #nad ul,
   #nad li {
-    font-size: 1.7vh;
+    font-size: 12px;
     margin-left: 3vw;
     margin-top: 1vh;
   }
@@ -264,23 +264,23 @@
   }
 
   #ee-list-1 li {
-    font-size: 1.9vh;
+    font-size: 14px;
   }
 
   #ee-list-2 li {
-    font-size: 1.9vh;
+    font-size: 13.5px;
   }
 
   #jas ul,
   #jas li {
-    font-size: 2.5vh;
+    font-size: 16px;
     margin-left: 4vw;
     margin-top: 1.5vh;
   }
 
   #bobd ul,
   #bobd li {
-    font-size: 2vh;
+    font-size: 15px;
     margin-top: 1vh;
     margin-left: 4vw;
   }
@@ -447,18 +447,18 @@
   #main-page-title-area,
   #main-page-title-area h1 {
     background-color: red;
-    font-size: 5vh;
+    font-size: 35px;
     padding-top: 2vh;
   }
 
   #main-page-intro p {
-    font-size: 2vh;
+    font-size: 15px;
     background-color: #0f0f0f;
     margin-top: 0;
   }
 
   #intro-p2 p {
-    font-size: 3.5vh;
+    font-size: 19px;
     margin-top: 0;
     padding-bottom: 30vh;
   }
@@ -504,11 +504,11 @@
   }
 
   #ns-list-1 li {
-    font-size: 2.8vh;
+    font-size: 21px;
   }
 
   #ns-list-2 li {
-    font-size: 2.6vh;
+    font-size: 20px;
   }
 
   #sc ul,
@@ -518,11 +518,11 @@
   }
 
   #sc-list-1 li {
-    font-size: 2.4vh;
+    font-size: 20px;
   }
 
   #sc-list-2 li {
-    font-size: 2.5vh;
+    font-size: 20px;
   }
 
   #nad ul,
@@ -532,11 +532,11 @@
   }
 
   #nad-list-1 li {
-    font-size: 2.5vh;
+    font-size: 18px;
   }
 
   #nad-list-2 li {
-    font-size: 2.5vh;
+    font-size: 18px;
   }
 
   #ee {
@@ -545,7 +545,7 @@
 
   #ee ul,
   #ee li {
-    font-size: 2.2vh;
+    font-size: 20px;
     margin-top: 2vh;
     margin-left: 2.5vw;
   }
@@ -561,11 +561,11 @@
   }
 
   #jas-list-1 li {
-    font-size: 2.8vh;
+    font-size: 21px;
   }
 
   #jas-list-2 li {
-    font-size: 2.9vh;
+    font-size: 22px;
   }
 
   #bobd {
@@ -579,11 +579,11 @@
   }
 
   #bobd-list-1 li {
-    font-size: 2.5vh;
+    font-size: 20px;
   }
 
   #bobd-list-2 li {
-    font-size: 2.8vh;
+    font-size: 20px;
   }
 }
 /*#endregion*/
@@ -598,18 +598,18 @@
   #main-page-title-area,
   #main-page-title-area h1 {
     background-color: pink;
-    font-size: 5vh;
+    font-size: 35px;
     padding-top: 2vh;
   }
 
   #main-page-intro p {
-    font-size: 2vh;
+    font-size: 19px;
     background-color: #0f0f0f;
     margin-top: 0;
   }
 
   #intro-p2 p {
-    font-size: 3.5vh;
+    font-size: 24px;
     margin-top: 0;
     padding-bottom: 30vh;
   }
@@ -655,11 +655,11 @@
   }
 
   #ns-list-1 li {
-    font-size: 2.8vh;
+    font-size: 24px;
   }
 
   #ns-list-2 li {
-    font-size: 2.6vh;
+    font-size: 23px;
   }
 
   #sc ul,
@@ -669,11 +669,11 @@
   }
 
   #sc-list-1 li {
-    font-size: 2.4vh;
+    font-size: 23px;
   }
 
   #sc-list-2 li {
-    font-size: 2.5vh;
+    font-size: 23px;
   }
 
   #nad ul,
@@ -683,11 +683,11 @@
   }
 
   #nad-list-1 li {
-    font-size: 2.5vh;
+    font-size: 24px;
   }
 
   #nad-list-2 li {
-    font-size: 2.5vh;
+    font-size: 24px;
   }
 
   #ee {
@@ -696,7 +696,7 @@
 
   #ee ul,
   #ee li {
-    font-size: 2.5vh;
+    font-size: 22px;
     margin-top: 2vh;
     margin-left: 2.5vw;
   }
@@ -712,11 +712,11 @@
   }
 
   #jas-list-1 li {
-    font-size: 3vh;
+    font-size: 24px;
   }
 
   #jas-list-2 li {
-    font-size: 3.1vh;
+    font-size: 25px;
   }
 
   #bobd {
@@ -730,10 +730,10 @@
   }
 
   #bobd-list-1 li {
-    font-size: 2.7vh;
+    font-size: 23px;
   }
 
   #bobd-list-2 li {
-    font-size: 2.8vh;
+    font-size: 25px;
   }
 }
